@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABEA45CD-E76
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "followup-cli", "src\followup-cli\followup-cli.csproj", "{017946C7-561C-4D73-9D52-2FB1F56DC6A4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D27F44FE-5039-4A6E-AC69-C393FC2BBAAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "samples\SampleApp\SampleApp.csproj", "{A3B72124-537F-4E56-AC61-D6E561728FF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +36,21 @@ Global
 		{017946C7-561C-4D73-9D52-2FB1F56DC6A4}.Release|x64.Build.0 = Release|Any CPU
 		{017946C7-561C-4D73-9D52-2FB1F56DC6A4}.Release|x86.ActiveCfg = Release|Any CPU
 		{017946C7-561C-4D73-9D52-2FB1F56DC6A4}.Release|x86.Build.0 = Release|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Debug|x64.Build.0 = Debug|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Debug|x86.Build.0 = Debug|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Release|x64.ActiveCfg = Release|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Release|x64.Build.0 = Release|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3B72124-537F-4E56-AC61-D6E561728FF4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{017946C7-561C-4D73-9D52-2FB1F56DC6A4} = {ABEA45CD-E76B-4669-A396-684345EBF599}
+		{A3B72124-537F-4E56-AC61-D6E561728FF4} = {D27F44FE-5039-4A6E-AC69-C393FC2BBAAB}
 	EndGlobalSection
 EndGlobal
