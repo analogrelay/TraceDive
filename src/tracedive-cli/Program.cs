@@ -8,7 +8,7 @@ using Microsoft.Diagnostics.Tracing;
 using Microsoft.Diagnostics.Tracing.Etlx;
 using Microsoft.Diagnostics.Tracing.Parsers.Tpl;
 
-namespace FollowUp.CommandLine
+namespace TraceDive.CommandLine
 {
     internal class Program
     {
@@ -122,7 +122,7 @@ namespace FollowUp.CommandLine
         {
             const string indent = "    ";
             var hangType = evt.Behavior == TaskWaitBehavior.Asynchronous ? "asynchronously" : "synchronously";
-            output.WriteLine($"Task {evt.TaskID} is hanging {hangType} at");
+            output.WriteLine($"Task {evt.TaskID} is blocking {hangType} at");
             var stack = evt.CallStack();
             if (stack == null)
             {

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <RootNamespace>FollowUp.CommandLine</RootNamespace>
+    <RootNamespace>TraceDive.CommandLine</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
